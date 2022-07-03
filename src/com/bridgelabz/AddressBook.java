@@ -87,6 +87,7 @@ public class AddressBook {
     }
 
 
+
     public void countContactsByUsingCity(String cityName) {
         long count = 0;
         long count1 = contactDetailsList.stream().filter(g -> g.getCity().equalsIgnoreCase(cityName)).count();
